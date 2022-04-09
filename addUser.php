@@ -44,7 +44,7 @@ if($phone=="")
 }
  else 
  {
-$connecti = mysqli_connect("3.25.125.209", "root", "123@123a", "toystore");
+    $connecti = mysqli_connect("3.25.125.209", "tuanqc", "123@123a", "toystore");
 	
     $res=mysqli_query($connecti,'select username from users where username = "'. $username .'"');
     if($res&&mysqli_num_rows($res)>0){      

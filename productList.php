@@ -16,7 +16,7 @@ if (isset($_GET['pageno'])) {
         $offset = ($pageno-1) * $no_of_records_per_page;
 
 // $conn = mysqli_connect("localhost", "root", "", "toystore");
-$conn = mysqli_connect("3.25.125.209", "root", "123@123a", "toystore");
+$conn = mysqli_connect("3.25.125.209", "tuanqc", "123@123a", "toystore");
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());

@@ -1,7 +1,7 @@
 ⁠⁠⁠<?php
 session_start();
 //include "connectToMysql.php";
-$connecti = mysqli_connect("localhost", "root", "", "toystore");
+$connecti = mysqli_connect("3.25.125.209", "tuanqc", "123@123a", "toystore");
 
 if (!$connecti) {
     die("Connection failed: " . mysqli_connect_error());
