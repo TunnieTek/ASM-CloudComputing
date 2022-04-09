@@ -14,7 +14,7 @@ if(isset($_POST["submit"])) {
         $uploadOk = 0;
     }
 }
-$connecti = mysqli_connect("localhost", "root", "", "toystore");
+$connecti = mysqli_connect("3.25.125.209", "root", "123@123a", "toystore");
 if (!$connecti) {
     die("Connection failed: " . mysqli_connect_error());
 }
